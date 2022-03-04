@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <title>ohmyfood</title>
+</head>
+<body>
+<!--------------------------------------en-tête----------------------------------->
+    <header>
+        <img src="images\logo.png" alt="logo ohmyfood" class="logo">
+    </header>
+<!---------------------------------------avant aside----------------------------->
+    <main>
+        <div class="localisation">
+            <i class="fa-solid fa-location-dot"></i><!--logo localisation-->
+            <p>Paris, Belleville</p>
+        </div>
+<!--------------------------------------aside---------------------------------->
+        <aside class="decouverte"> 
+            <div class="infos">
+                <h3 class="gras">Réservez le menu qui vous convient</h3>
+                <p class="gris">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+                <button class="btn">Explorer nos restaurants</button><!--bouton explorer-->
+            </div>
+        </aside>
+<!--------------------------------------section fonctionnement---------------------------------->
+        <h3 class="titre">Fonctionnement</h3>
+        <section class="fonctionnement">
+            <div class="vignettes">
+                <p class="numero">1</p><!--bulle de chiffre-->
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h3 class="etapes">Choisissez un restaurant</h3>
+            </div>
+            <div class="vignettes">
+                <p class="numero">2</p><!--bulle de chiffre-->
+                <i class="fa-solid fa-square-list"></i>
+                <h3 class="etapes">Composez votre menu</h3>
+            </div>
+            <div class="vignettes">
+                <p class="numero">3</p><!--bulle de chiffre-->
+                <i class="fa-solid fa-store"></i>
+                <h3 class="etapes">Dégustez au restaurant</h3>
+            </div>
+        </section>
+<!--------------------------------------section restaurants---------------------------------->
+        <section class="restaurants">
+            <h3 class="titre">Restaurants</h3>
+            <div class="cartes">
+                <nav><!--Liens de pages-->
+                    <a href="menu1.html" class="liennav-active">
+                        <img src="images\restaurants\une.jpg" alt="image" class="image">
+                        <h4>La palette du goût</h4>
+                        <p>Ménilmontant</p>
+                        <i class="fa-thin fa-heart"></i>
+                    </a><!--Lien onglet la palette du goût-->
+                </nav>
+            </div>
+            <div class="cartes">
+                <nav><!--Liens de pages-->
+                    <a href="menu2.html" class="liennav-active">
+                        <img src="images\restaurants\deux.jpg" alt="image" class="image">
+                        <h4>La note enchantée</h4>
+                        <p>Charonne</p>
+                        <i class="fa-thin fa-heart"></i>    
+                    </a><!--Lien onglet la note enchantée-->
+                </nav>
+            </div>
+            <div class="cartes">
+                <nav><!--Liens de pages-->
+                    <a href="menu3.html" class="liennav-active">
+                        <img src="images\restaurants\trois.jpg" alt="image" class="image">
+                        <h4>A la française</h4>
+                        <p>Cité Rouge</p>
+                        <i class="fa-thin fa-heart"></i>
+                    </a><!--Lien onglet A la française-->
+                </nav>
+                
+            </div>
+            <div class="cartes">
+                <nav><!--Liens de pages-->
+                    <a href="menu4.html" class="liennav-active">
+                        <img src="images\restaurants\quatre.jpg" alt="image" class="image">
+                        <h4>Le délice des sens</h4>
+                        <p>Folie-Méricourt</p>
+                        <i class="fa-thin fa-heart"></i>
+                    </a><!--Lien onglet le délice des sens-->
+                </nav>
+            </div>
+        </section>
+<!--------------------------------------Pieds de page---------------------------------->
+        <div class="footer">
+            <h1 class="logo">ohmyfood</h1>
+            <div class="proposer">
+                <i class="fa-solid fa-utensils"></i>
+                <p>Proposer un restaurant</p>
+            </div>
+            <div class="partenaire">
+                <i class="fa-solid fa-handshake-angle"></i>
+                <p>Devenir partenaire</p>
+            </div>
+            <p>Mentions légales</p>
+            <p>Contact</p>
+        </div>
+    </main>   
+</body>
+</html>
