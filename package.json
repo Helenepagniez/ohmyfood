@@ -1,0 +1,22 @@
+{
+    "name": "p3_helene_pagniez",
+    "version": "1.0.0",
+    "description": "Projet 3 ohmyfood",
+    "main": "index.html",
+    "scripts": 
+    {
+      "sass": "sass --watch ./sass/main.scss:./css/style.css"
+    },
+    "repository":
+     {
+      "type": "git",
+      "url": "https://github.com/Helenepagniez/ohmyfood.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": 
+    {
+      "url": ""
+    },
+    "homepage": ""
+  }
