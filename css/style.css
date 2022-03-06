@@ -45,13 +45,17 @@ header .logo
 .localisation i
 {
     color: black;
+    display: flex;
+    align-items: center;
+    margin-left: 93px;
+    font-size: 20px;
 }
 
 .localisation p
 {
     justify-content: center;
     text-align: center;
-    margin: 15px 0px;
+    margin: 13px -99px;
     color: black;
     font-size: 20px;
     width: 100%;
@@ -119,7 +123,6 @@ header .logo
 {
     background-color: #ecdffc;
     cursor: pointer;
-
 }
 
 
@@ -139,7 +142,14 @@ header .logo
 .fonctionnement .vignettes i
 {
     color: black;
-    background-color: none;
+    display: flex;
+    align-items: center;
+    margin: 0px 24px 0px -31px;
+}
+
+.fonctionnement .vignettes:hover i
+{
+    color: #9356DC;
 }
 
 /**************************SECTION RESTAURANTS***************************/
@@ -222,5 +232,12 @@ header .logo
 
 .footer .proposer, .partenaire, p
 {
-    margin-left: 20px;
+    margin-left: 30px;
+}
+
+.footer .proposer i, .partenaire i
+{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px -35px 0px;
 }
