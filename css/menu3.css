@@ -1,21 +1,22 @@
 /*************************Généraux**************************************/
-@font-face 
-{
-    font-family: Roboto;
-    src: url(Polices\Roboto\Roboto-Medium.ttf) format("truetype");
-    font-family: Shrikhand;
-    src: url(Polices\Shrikhand\Shrikhand-Regular.ttf) format("truetype");
-}
+/* Police d'écriture */
+
+/* Logo & titres */
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+/* Textes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 body
 {
-    font-family: Roboto, 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;/*police du texte*/
+    font-family: Roboto, sans-serif;/*police du texte*/
     margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6
+h1, i
 {
-    font-family: Shrikhand;
+    font-family: Shrikhand;/*Police titres et logos*/
 }
 
 /***************************EN-TETE*****************************************/
