@@ -204,6 +204,15 @@ header .logo
     margin: -30px 0px 25px 255px;
 }
 
+.restaurants .cartes .liennav-active .nouveau
+{
+    background-color: #99E2D0;
+    color: #4aa58e;
+    width: 100px;
+    text-align: center;
+    margin: -244px 0px 244px 210px;
+}
+
 .restaurants .cartes .image
 {
     width: 330px;
