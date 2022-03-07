@@ -33,6 +33,7 @@ header i
     align-content: center;
     margin: 20px -40px 0px 30px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 header .logo
