@@ -86,7 +86,7 @@ header .logo
     align-items: center;
 }
 
-.menu .nom .titre
+.menu .nom .titreprincipal
 {
     font-weight: bold;
     font-size: 27px;
@@ -101,7 +101,7 @@ header .logo
     margin-left: 12px;
 }
 
-.menu .une, .un, .deux, .trois, .quatre
+.menu .repas
 {
     background-color: white;
     box-shadow: 1px 1px 5px rgb(82, 81, 81);
@@ -111,26 +111,25 @@ header .logo
     cursor: pointer;
 }
 
-.menu .entrees .titre, .plats .titre, .desserts .titre
+.menu .titre
 {
     border-bottom: #99E2D0 solid;
     width: 42px;
 }
 
-.menu .entrees .intitule, .plats .intitule, .desserts .intitule
+.menu .intitule
 {
     color: black;
     margin-left: 7px;
     padding-top: 8px;
 }
 
-.menu .entrees .description, .plats .description, .desserts .description
+.menu .description
 {
     margin: -12px 0px -24px 7px;
-    display: flex;
 }
 
-.menu .entrees .prix, .plats .prix, .desserts .prix
+.menu .prix
 {
     display: flex;
     justify-content: right;
@@ -152,6 +151,13 @@ header .logo
     box-shadow: 1px 1px 5px rgb(82, 81, 81);
     height: 45px;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.menu .commander .btn:hover 
+{
+    filter: brightness(1.1);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
 /**************************PIEDS DE PAGE***************************/
@@ -176,7 +182,7 @@ header .logo
     margin-left: 30px;
 }
 
-.footer .proposer i, .partenaire i
+.footer i
 {
     display: flex;
     align-items: center;
