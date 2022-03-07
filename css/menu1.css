@@ -148,5 +148,12 @@ header .logo
 
 .footer .proposer, .partenaire, p
 {
-    margin-left: 20px;
+    margin-left: 30px;
+}
+
+.footer .proposer i, .partenaire i
+{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px -35px 0px;
 }
