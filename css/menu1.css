@@ -204,3 +204,15 @@ header .logo
     align-items: center;
     margin: 0px 0px -35px 0px;
 }
+
+.footer .contact
+{
+    text-decoration: none;
+    color: white;
+}
+
+.footer .contact:hover
+{
+    text-decoration: underline 2px;
+    color: #99E2D0;
+}
