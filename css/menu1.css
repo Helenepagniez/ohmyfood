@@ -67,23 +67,34 @@ header .logo
     display: flex;
 }
 
-.menu .nom #vide
+.menu .nom .coeur
 {
-    border: rgb(90, 90, 90);
-    font-size: 20px;
     display: flex;
-    width: 50px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
     align-items: center;
-    justify-content: flex-end;
+    margin-right: 20px;
+    width: 30px;
 }
 
-.menu .nom #plein
+.menu .nom .coeur .coeur-plein
 {
-    color: linear-gradient(#FF79DA,#9356DC);
-    font-size: 20px;
-    display: flex;
-    width: 50px;
-    align-items: center;
+    position: absolute;
+    fill: url(#text-fill);
+    stroke: none;
+    width: 30px;
+    margin: 0px 0px 0px 140px;
+}
+
+.menu .nom .coeur .coeur-vide
+{
+    width: 30px;
+    position: absolute;
+    fill: white;
+    stroke: black;
+    stroke-width: 30;
+    margin: 0px 0px 0px 140px;
 }
 
 .menu .nom .titreprincipal
@@ -137,6 +148,11 @@ header .logo
     padding: 0px 3px 11px 0px;
     font-weight: 700;
     color: black;
+}
+
+.menu .commander
+{
+    margin: 58px 0px 48px 0px;
 }
 
 .menu .commander .btn
