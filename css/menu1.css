@@ -117,7 +117,6 @@ header .logo
     background-color: white;
     box-shadow: 1px 1px 5px rgb(82, 81, 81);
     border-radius: 17px 17px 17px 17px;
-    width: 330px;
     margin: 0px 6px;
     cursor: pointer;
 }
@@ -138,6 +137,10 @@ header .logo
 .menu .description
 {
     margin: -12px 0px -24px 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 77%;
+    text-overflow: ellipsis;
 }
 
 .menu .prix

@@ -136,7 +136,10 @@ header .logo
 .menu .description
 {
     margin: -12px 0px -24px 7px;
-    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 77%;
+    text-overflow: ellipsis;
 }
 
 .menu .prix
