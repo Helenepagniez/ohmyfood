@@ -80,20 +80,38 @@ header .logo
 .menu .nom .coeur .coeur-plein
 {
     position: absolute;
-    fill: url(#text-fill);
-    stroke: none;
     width: 30px;
     margin: 0px 0px 0px 140px;
-}
-
-.menu .nom .coeur .coeur-vide
-{
-    width: 30px;
-    position: absolute;
     fill: white;
     stroke: black;
     stroke-width: 30;
-    margin: 0px 0px 0px 140px;
+    cursor: pointer;
+}
+
+.menu .nom .coeur .coeur-plein:hover
+{
+    position: absolute;
+    fill: url(#text-fill);
+    stroke: none;
+    width: 30px;
+    transition: all 0.3s linear 0s;
+    animation: fade-in 1s;
+}
+
+@keyframes fade-in
+{
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.menu .nom .coeur .coeur-plein:focus
+{
+    position: absolute;
+    fill: url(#text-fill);
+    stroke: none;
+    width: 30px;
+    transition: all 0.3s linear 0s;
+    animation: fade-in 1s;
 }
 
 .menu .nom .titreprincipal

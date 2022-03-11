@@ -109,15 +109,18 @@ header
 
 header .logo
 {
-   height: auto;
-   width: 50%;
-   margin: 12px 90px;
+   width: 100%;
+   height: 100%;
+   justify-content: center; 
+   display: flex;
+   margin: 0;
 }
 
 /*********************************AVANT ASIDE*********************************/
 .localisation
 {
    background-color:#e2e2e2 ;/*gris légèrement foncé*/
+   width: 100%;
    height: 50px;
    display: flex;
    border-top: 1px groove #e7e7e7;/*bordure*/
@@ -128,18 +131,24 @@ header .logo
     color: black;
     display: flex;
     align-items: center;
-    margin-left: 93px;
+    justify-content: flex-end;
+    width: 40%;
     font-size: 20px;
+    padding-right: 10px;
 }
 
 .localisation p
 {
-    justify-content: center;
+    display: flex;
+    justify-content: flex-start;
     text-align: center;
-    margin: 13px -99px;
+    align-items: center;
     color: black;
     font-size: 20px;
-    width: 100%;
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    padding-left: 10px;
 }
 
 /*********************************ASIDE*************************************/
@@ -273,41 +282,6 @@ header .logo
     text-decoration: none;
 }
 
-.restaurants .coeur 
-{
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    margin-right: 20px;
-    width: 30px;
-}
-
-.restaurants .coeur .coeur-plein
-{
-    position: absolute;
-    fill: url(#text-fill);
-    stroke: none;
-    width: 30px;
-    margin: -39px 0px 0px 255px;
-}
-
-.restaurants .coeur .coeur-vide
-{
-    width: 30px;
-    position: absolute;
-    fill: white;
-    stroke: black;
-    stroke-width: 30;
-    margin: -39px 0px 0px 255px;
-}
-
-.nouveaute .coeur
-{
-    margin-top: -20px;
-}
-
 .restaurants .cartes .liennav .nouveau
 {
     position: relative;
@@ -348,6 +322,61 @@ header .logo
     color: grey;
     height: 30px;
     display: flex;
+}
+
+.restaurants .coeur 
+{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 20px;
+    width: 30px;
+}
+
+.restaurants .coeur .coeur-plein
+{
+    position: absolute;
+    fill: white;
+    stroke: black;
+    stroke-width: 30;
+    width: 30px;
+    margin: -39px 0px 0px 255px;
+    cursor: pointer;
+}
+
+.restaurants .coeur .coeur-plein:hover
+{
+    position: absolute;
+    fill: url(#text-fill);
+    stroke: none;
+    width: 30px;
+    margin: -39px 0px 0px 255px;
+    transition: all 0.3s linear 0s;
+    animation: fade-in 1s;
+}
+
+@keyframes fade-in
+{
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.restaurants .coeur .coeur-plein:focus
+{
+    position: absolute;
+    fill: url(#text-fill);
+    stroke: none;
+    width: 30px;
+    margin: -39px 0px 0px 255px;
+    transition: all 0.3s linear 0s;
+    animation: fade-in 1s;
+}
+
+.nouveaute .coeur
+{
+    margin-top: -20px;
 }
 
 /**************************PIEDS DE PAGE***************************/

@@ -18,213 +18,161 @@
     </div>
 
     <div class="loaded">
-<!--------------------------------------en-tête----------------------------------->
-    <header>
-        <img src="images\logo.png" alt="logo ohmyfood" class="logo">
-    </header>
-<!---------------------------------------avant aside----------------------------->
-    <main>
-        <div class="localisation">
-            <i class="fas fa-map-marker-alt"></i><!--logo localisation-->
-            <p>Paris, Belleville</p>
-        </div>
-<!--------------------------------------aside---------------------------------->
-        <aside class="decouverte"> 
-            <div class="infos">
-                <h3 class="gras">Réservez le menu qui vous convient</h3>
-                <p class="gris">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-                <a href="#restaurants" class="btn">Explorer nos restaurants</a><!--bouton explorer-->
-            </div>
-        </aside>
-<!--------------------------------------section fonctionnement---------------------------------->
-        <h3 class="titre">Fonctionnement</h3>
-        <section class="fonctionnement">
-            <div class="vignettes">
-                <p class="numero">1</p><!--bulle de chiffre-->
-                <i class="fas fa-mobile-alt"></i>
-                <h3 class="etapes">Choisissez un restaurant</h3>
-            </div>
-            <div class="vignettes">
-                <p class="numero">2</p><!--bulle de chiffre-->
-                <i class="fas fa-list"></i>
-                <h3 class="etapes">Composez votre menu</h3>
-            </div>
-            <div class="vignettes">
-                <p class="numero">3</p><!--bulle de chiffre-->
-                <i class="fas fa-store"></i>
-                <h3 class="etapes">Dégustez au restaurant</h3>
-            </div>
-        </section>
-<!--------------------------------------section restaurants--------------------------------->
-        <section id="restaurants" class="restaurants">
-            <h3 class="titre">Restaurants</h3>
-            <div class="cartes nouveaute">
-                <nav><!--Liens de pages-->
-                    <a href="menu1.html" class="liennav">
-                        <img src="images\restaurants\une.jpg" alt="image" class="image">
-                        <h4>La palette du goût</h4>
-                        <p>Ménilmontant</p>
-                        <p class="nouveau">Nouveau</p>
-                    </a><!--Lien onglet la palette du goût-->
-                    <div class="coeur">
-                        <svg class="coeur-plein" viewBox="-20 0 550 550" xml:space="preserve">
-                            <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                                     c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                                     c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                                     s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                                     C512,93.417,453.532,30,376,30z"></path>
-                          <defs>
-                            <linearGradient id="text-fill">
-                                  <stop offset="0%" stop-color="#9356DC"></stop>
-                                  <stop offset="100%" stop-color="#FF79DA"></stop>
-                            </linearGradient>
-                          </defs>                                   
-                        </svg>
-                        <svg class="coeur-vide" viewBox="-20 0 550 550" xml:space="preserve">
-                            <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                                     c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                                     c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                                     s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                                     C512,93.417,453.532,30,376,30z"></path>
-                          <defs>
-                            <linearGradient>
-                                  <stop offset="0%" stop-color="#9356DC"></stop>
-                                  <stop offset="100%" stop-color="#FF79DA"></stop>
-                            </linearGradient>
-                          </defs>                                   
-                        </svg>
-                    </div>
-                </nav>
-            </div>
-            <div class="cartes nouveaute">
-                <nav><!--Liens de pages-->
-                    <a href="menu2.html" class="liennav">
-                        <img src="images\restaurants\deux.jpg" alt="image" class="image">
-                        <h4>La note enchantée</h4>
-                        <p>Charonne</p>
-                        <p class="nouveau">Nouveau</p>
-                    </a><!--Lien onglet la note enchantée-->
-                    <div class="coeur">
-                        <svg class="coeur-plein" viewBox="-20 0 550 550" xml:space="preserve">
-                            <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                                     c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                                     c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                                     s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                                     C512,93.417,453.532,30,376,30z"></path>
-                          <defs>
-                            <linearGradient id="text-fill">
-                                  <stop offset="0%" stop-color="#9356DC"></stop>
-                                  <stop offset="100%" stop-color="#FF79DA"></stop>
-                            </linearGradient>
-                          </defs>                                   
-                        </svg>
-                        <svg class="coeur-vide" viewBox="-20 0 550 550" xml:space="preserve">
-                            <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                                     c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                                     c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                                     s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                                     C512,93.417,453.532,30,376,30z"></path>
-                          <defs>
-                            <linearGradient>
-                                  <stop offset="0%" stop-color="#9356DC"></stop>
-                                  <stop offset="100%" stop-color="#FF79DA"></stop>
-                            </linearGradient>
-                          </defs>                                   
-                        </svg>
-                    </div>
-                </nav>
-            </div>
-            <div class="cartes">
-                <nav><!--Liens de pages-->
-                    <a href="menu3.html" class="liennav">
-                        <img src="images\restaurants\trois.jpg" alt="image" class="image">
-                        <h4>A la française</h4>
-                        <p>Cité Rouge</p>
-                    </a><!--Lien onglet A la française-->
-                    <div class="coeur">
-                        <svg class="coeur-plein" viewBox="-20 0 550 550" xml:space="preserve">
-                            <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                                     c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                                     c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                                     s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                                     C512,93.417,453.532,30,376,30z"></path>
-                          <defs>
-                            <linearGradient id="text-fill">
-                                  <stop offset="0%" stop-color="#9356DC"></stop>
-                                  <stop offset="100%" stop-color="#FF79DA"></stop>
-                            </linearGradient>
-                          </defs>                                   
-                        </svg>
-                        <svg class="coeur-vide" viewBox="-20 0 550 550" xml:space="preserve">
-                            <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                                     c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                                     c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                                     s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                                     C512,93.417,453.532,30,376,30z"></path>
-                          <defs>
-                            <linearGradient>
-                                  <stop offset="0%" stop-color="#9356DC"></stop>
-                                  <stop offset="100%" stop-color="#FF79DA"></stop>
-                            </linearGradient>
-                          </defs>                                   
-                        </svg>
-                    </div>
-                </nav>
-                
-            </div>
-            <div class="cartes">
-                <nav><!--Liens de pages-->
-                    <a href="menu4.html" class="liennav">
-                        <img src="images\restaurants\quatre.jpg" alt="image" class="image">
-                        <h4>Le délice des sens</h4>
-                        <p>Folie-Méricourt</p>
-                    </a><!--Lien onglet le délice des sens-->
-                    <div class="coeur">
-                        <svg class="coeur-plein" viewBox="-20 0 550 550" xml:space="preserve">
-                            <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                                     c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                                     c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                                     s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                                     C512,93.417,453.532,30,376,30z"></path>
-                          <defs>
-                            <linearGradient id="text-fill">
-                                  <stop offset="0%" stop-color="#9356DC"></stop>
-                                  <stop offset="100%" stop-color="#FF79DA"></stop>
-                            </linearGradient>
-                          </defs>                                   
-                        </svg>
-                        <svg class="coeur-vide" viewBox="-20 0 550 550" xml:space="preserve">
-                            <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
-                                     c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
-                                     c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
-                                     s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
-                                     C512,93.417,453.532,30,376,30z"></path>
-                          <defs>
-                            <linearGradient>
-                                  <stop offset="0%" stop-color="#9356DC"></stop>
-                                  <stop offset="100%" stop-color="#FF79DA"></stop>
-                            </linearGradient>
-                          </defs>                                   
-                        </svg>
-                    </div> 
-                </nav>
-            </div>
-        </section>
-<!--------------------------------------Pieds de page---------------------------------->
-        <div class="footer">
+        <!--------------------------------------en-tête----------------------------------->
+        <header>
             <h1 class="logo">ohmyfood</h1>
-            <div class="proposer">
-                <i class="fas fa-utensils"></i>
-                <p>Proposer un restaurant</p>
+        </header>
+        <!---------------------------------------avant aside----------------------------->
+        <main>
+            <div class="localisation">
+                <i class="fas fa-map-marker-alt"></i><!--logo localisation-->
+                <p>Paris, Belleville</p>
             </div>
-            <div class="partenaire">
-                <i class="fas fa-hands-helping"></i>
-                <p>Devenir partenaire</p>
+            <!--------------------------------------aside---------------------------------->
+            <aside class="decouverte"> 
+                <div class="infos">
+                    <h3 class="gras">Réservez le menu qui vous convient</h3>
+                    <p class="gris">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+                    <a href="#restaurants" class="btn">Explorer nos restaurants</a><!--bouton explorer-->
+                </div>
+            </aside>
+            <!--------------------------------------section fonctionnement---------------------------------->
+            <h3 class="titre">Fonctionnement</h3>
+            <section class="fonctionnement">
+                <div class="vignettes">
+                    <p class="numero">1</p><!--bulle de chiffre-->
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3 class="etapes">Choisissez un restaurant</h3>
+                </div>
+                <div class="vignettes">
+                    <p class="numero">2</p><!--bulle de chiffre-->
+                    <i class="fas fa-list"></i>
+                    <h3 class="etapes">Composez votre menu</h3>
+                </div>
+                <div class="vignettes">
+                    <p class="numero">3</p><!--bulle de chiffre-->
+                    <i class="fas fa-store"></i>
+                    <h3 class="etapes">Dégustez au restaurant</h3>
+                </div>
+            </section>
+            <!--------------------------------------section restaurants--------------------------------->
+            <section id="restaurants" class="restaurants">
+                <h3 class="titre">Restaurants</h3>
+                <div class="cartes nouveaute">
+                    <nav><!--Liens de pages-->
+                        <a href="menu1.html" class="liennav">
+                            <img src="images\restaurants\une.jpg" alt="image" class="image">
+                            <h4>La palette du goût</h4>
+                            <p>Ménilmontant</p>
+                            <p class="nouveau">Nouveau</p>
+                        </a><!--Lien onglet la palette du goût-->
+                        <div class="coeur">
+                            <svg class="coeur-plein" viewBox="-20 0 550 550" xml:space="preserve">
+                                <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                                        c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                                        c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                                        s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                                        C512,93.417,453.532,30,376,30z"></path>
+                            <defs>
+                                <linearGradient id="text-fill">
+                                    <stop offset="0%" stop-color="#9356DC"></stop>
+                                    <stop offset="100%" stop-color="#FF79DA"></stop>
+                                </linearGradient>
+                            </defs>                                  
+                            </svg>
+                        </div>
+                    </nav>
+                </div>
+                <div class="cartes nouveaute">
+                    <nav><!--Liens de pages-->
+                        <a href="menu2.html" class="liennav">
+                            <img src="images\restaurants\deux.jpg" alt="image" class="image">
+                            <h4>La note enchantée</h4>
+                            <p>Charonne</p>
+                            <p class="nouveau">Nouveau</p>
+                        </a><!--Lien onglet la note enchantée-->
+                        <div class="coeur">
+                            <svg class="coeur-plein" viewBox="-20 0 550 550" xml:space="preserve">
+                                <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                                        c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                                        c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                                        s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                                        C512,93.417,453.532,30,376,30z"></path>
+                            <defs>
+                                <linearGradient id="text-fill">
+                                    <stop offset="0%" stop-color="#9356DC"></stop>
+                                    <stop offset="100%" stop-color="#FF79DA"></stop>
+                                </linearGradient>
+                            </defs>                                   
+                            </svg>
+                        </div>
+                    </nav>
+                </div>
+                <div class="cartes">
+                    <nav><!--Liens de pages-->
+                        <a href="menu3.html" class="liennav">
+                            <img src="images\restaurants\trois.jpg" alt="image" class="image">
+                            <h4>A la française</h4>
+                            <p>Cité Rouge</p>
+                        </a><!--Lien onglet A la française-->
+                        <div class="coeur">
+                            <svg class="coeur-plein" viewBox="-20 0 550 550" xml:space="preserve">
+                                <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                                        c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                                        c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                                        s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                                        C512,93.417,453.532,30,376,30z"></path>
+                            <defs>
+                                <linearGradient id="text-fill">
+                                    <stop offset="0%" stop-color="#9356DC"></stop>
+                                    <stop offset="100%" stop-color="#FF79DA"></stop>
+                                </linearGradient>
+                            </defs>                                   
+                            </svg>
+                        </div>
+                    </nav>
+                    
+                </div>
+                <div class="cartes">
+                    <nav><!--Liens de pages-->
+                        <a href="menu4.html" class="liennav">
+                            <img src="images\restaurants\quatre.jpg" alt="image" class="image">
+                            <h4>Le délice des sens</h4>
+                            <p>Folie-Méricourt</p>
+                        </a><!--Lien onglet le délice des sens-->
+                        <div class="coeur">
+                            <svg class="coeur-plein" viewBox="-20 0 550 550" xml:space="preserve">
+                                <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                                        c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                                        c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                                        s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                                        C512,93.417,453.532,30,376,30z"></path>
+                            <defs>
+                                <linearGradient id="text-fill">
+                                    <stop offset="0%" stop-color="#9356DC"></stop>
+                                    <stop offset="100%" stop-color="#FF79DA"></stop>
+                                </linearGradient>
+                            </defs>                                   
+                            </svg>
+                        </div> 
+                    </nav>
+                </div>
+            </section>
+            <!--------------------------------------Pieds de page---------------------------------->
+            <div class="footer">
+                <h1 class="logo">ohmyfood</h1>
+                <div class="proposer">
+                    <i class="fas fa-utensils"></i>
+                    <p>Proposer un restaurant</p>
+                </div>
+                <div class="partenaire">
+                    <i class="fas fa-hands-helping"></i>
+                    <p>Devenir partenaire</p>
+                </div>
+                <p>Mentions légales</p>
+                <a class="contact" href="mailto:contact@ohmyfood.com"><p>Contact</p></a>
             </div>
-            <p>Mentions légales</p>
-            <a class="contact" href="mailto:contact@ohmyfood.com"><p>Contact</p></a>
-        </div>
-    </main> 
+        </main> 
     </div>  
 </body>
 </html>
