@@ -130,6 +130,34 @@ header .logo
     margin-left: 12px;
 }
 
+.menu .entrees
+{
+    animation: apparition 4s;
+}
+
+@keyframes apparition
+{
+    0%
+    {
+        opacity: 0;
+
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.menu .plats
+{
+    animation: apparition 7s;
+}
+
+.menu .desserts
+{
+    animation: apparition 9s;
+}
+
 .menu .repas
 {
     background-color: white;
