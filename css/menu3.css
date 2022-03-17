@@ -25,28 +25,37 @@ header
     background-color: white;
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
 }
 
 header i
 {
     color: rgb(22, 22, 22);
-    align-content: center;
-    margin: 20px -40px 0px 30px;
-    font-size: 20px;
+    font-size: 30px;
     cursor: pointer;
+    margin-left: 20px;
 }
 
 header .logo
 {
    height: auto;
    width: 50%;
-   margin: 12px 90px;
+   margin: auto;
 }
 
 /*********************************ASIDE*************************************/
+.image 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .image .photo
 {
-    width: 400px;
+    width: 100%;
     height: auto;
     position: relative;
     z-index: -1;
@@ -60,13 +69,14 @@ header .logo
     padding: 10px 0px;
     margin-top: -65px;
     width: 100%;
-    max-width: 1230px;
 }
 
 .menu .nom
 {
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu .nom .coeur
@@ -77,6 +87,7 @@ header .logo
     -webkit-box-align: center;
     align-items: center;
     margin-right: 20px;
+    margin-left: 20px;
     width: 30px;
 }
 
@@ -84,7 +95,6 @@ header .logo
 {
     position: absolute;
     width: 30px;
-    margin: 0px 0px 0px 140px;
     fill: white;
     stroke: black;
     stroke-width: 30;
@@ -123,6 +133,14 @@ header .logo
     font-size: 27px;
     margin-left: 20px;
     color: black;
+}
+
+.menu .menu-conteneur
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .menu .entrees,.plats, .desserts
@@ -321,7 +339,9 @@ header .logo
 
 .menu .commander
 {
-    margin: 58px 0px 48px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu .commander .btn
@@ -332,9 +352,8 @@ header .logo
     color: white;
     font-size: 17px;
     padding: 10px 45px;
-    margin: 40px 98px;
+    margin: 40px 0;
     box-shadow: 1px 1px 5px rgb(82, 81, 81);
-    height: 45px;
     cursor: pointer;
     text-decoration: none;
 }
