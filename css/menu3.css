@@ -346,15 +346,16 @@ header .logo
 }
 
 /**************************PIEDS DE PAGE***************************/
-.footer
+footer
 {
     background-color: rgb(43, 43, 43);
     color: white;
     padding: 7px 0px 1px 10px;
-    height: 245px;
+    height: auto;
+    width: 100%;
 }
 
-.footer .logo
+footer .logo
 {
     font-size: 25px;
     font-style: italic;
@@ -362,25 +363,29 @@ header .logo
     font-family: serif;
 }
 
-.footer .proposer, .partenaire, p
-{
-    margin-left: 30px;
-}
-
-.footer i
+footer .proposer, .partenaire
 {
     display: flex;
     align-items: center;
-    margin: 0px 0px -35px 0px;
 }
 
-.footer .contact
+footer i 
+{
+    margin-left: 20px;
+}
+
+footer p 
+{
+    margin-left: 20px;
+}
+
+footer .contact
 {
     text-decoration: none;
     color: white;
 }
 
-.footer .contact:hover
+footer .contact:hover
 {
     text-decoration: underline 2px;
     color: #99E2D0;
