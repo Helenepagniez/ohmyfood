@@ -28,7 +28,6 @@ h1, i
     align-items: center;
     height: 100vh;
     animation: disappear 4s forwards;
-
 }
 
 @keyframes disappear
@@ -42,8 +41,6 @@ h1, i
         height: 0;
     }
 }
-
-
 
 .loading-spinner .spin
 {
