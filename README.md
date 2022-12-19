@@ -60,3 +60,6 @@ Validation W3C HTML : OK
 Validation W3C CSS : OK
 
 Compatibilité : Dernières versions de Chrome, Firefox & Safari
+
+# Lancer l'application
+Afin de lancer l'application, il suffit de cliquer sur le lien.
