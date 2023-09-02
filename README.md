@@ -34,7 +34,7 @@ Frontend : HTML5 / CSS3
   ### Cloner le projet
 
   ```bash
-    git clone https://github.com/Helenepagniez/Booki.git
+    git clone https://github.com/Helenepagniez/ohmyfood.git
   ```
 
   ### Installer les dépendances
