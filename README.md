@@ -1,65 +1,52 @@
-# ohmyfood
+<div align="center">
+<img height="130px" width="auto" src="./images/logo.png">
+</div>
 
-Ohmyfood 🍽
+# Ohmyfood, application de restaurants 🍽
 
+Troisième projet du parcours Développeur web d'OpenClassroom. </br> 
 L'objectif est d'intégrer puis de dynamiser une page web avec des animations CSS en utilisant Sass.
 
-# Objectifs
+Frontend : HTML5 / CSS3
 
-Développer un site proposant le menu de 4 grands restaurants parisiens.
+<details>
+  <summary>Détails</summary>
 
-Permettre la réservation en ligne et la composition de menus.
+  ### Objectifs
 
+  - Reproduire une application à l'identique
+  - Maitriser les animations en CSS
+  - Rendre l'application responsive
 
-# Livrables
+  ### Animation CSS
 
-1 Page d’accueil
+  - Loading Spinner
+  - Remplissage avec dégradé d'un élément
+  - Apparition progressive
+  - Animation de rotation et de superposition
+  - Taille images
 
-4 Pages de menu
+</details>
 
+<details>
+  <summary>Lancer en local</summary>
 
-# Animation
+  ### Cloner le projet
 
-Boutons
+  ```bash
+    git clone https://github.com/Helenepagniez/Booki.git
+  ```
 
-Au survol, la couleur de fond des boutons principaux devra légèrement s’éclaircir. L’ombre portée devra également être plus visible. À terme, les visiteurs pourront sauvegarder leurs menus préférés. Pour ça, un bouton "J’aime" en forme de cœur est présent sur la maquette. Au clic, il devra se remplir progressivement. Pour cette première version, l’effet peut être apparaître au survol au lieu du clic.
+  ### Installer les dépendances
 
-Page d’accueil
+  ```bash
+    npm install
+  ```
 
-Quand l’application aura plus de menus, un “loading spinner” sera nécessaire. Sur cette maquette, nous souhaitons en avoir un aperçu. Il devra apparaître pendant 1 à 3 secondes quand on arrive sur la page d'accueil, couvrir l'intégralité de l'écran, et utiliser les animations CSS (pas de librairie). Le design de ce loader n’est pas défini,toute proposition est donc la bienvenue tant qu’elle est cohérente avec la chartegraphique du site.
+  ### Lancer l'application
 
-Pages de menu
+  ```bash
+    ng serve -o
+  ```
 
-À l’arrivée sur la page, les plats devront apparaître progressivement avec un léger décalage dans le temps. Ils pourront soit apparaître un par un, soit par groupe “Entrée”, “Plat” et “Dessert”. Un exemple de l’effet attendu est fourni. Le visiteur peut ajouter les plats qu'il souhaite à sa commande en cliquant dessus. Cela fait apparaître une petite coche à droite du plat. Cette coche devra coulisser dela droite vers la gauche. Pour cette première version, l’effet peut apparaître au survolau lieu du clic. Si l’intitulé du plat est trop long, il devra être rogné avec des points de suspension. Un exemple de l’effet attendu est fourni Technologies
-
-
-# Consignes
-
-Autorisés: HTML / CSS / Sass
-
-Recommandée: HTML / Sass
-
-
-# Notes
-
-Polices : "Shrikhand", "Roboto"
-
-Couleurs : Primaire: #9356DC , Secondaire: #FF79DA , Tertiaire: #99E2D0
-
-
-# Contraintes
-
-Approche mobile-first: oui
-
-Maquette mobile : oui
-
-Maquette desktop : à improviser
-
-Validation W3C HTML : OK
-
-Validation W3C CSS : OK
-
-Compatibilité : Dernières versions de Chrome, Firefox & Safari
-
-# Lancer l'application
-Afin de lancer l'application, il suffit de cliquer sur le lien.
+</details>
